@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ALC_challenge_1</string>
+    <string name="welcome_to_alc_4_0">Welcome To ALC 4.0</string>
+    <string name="main_activity_title">AlC 4 Phase 1</string>
+    <string name="my_profile">My Profile</string>
+    <string name="about">About ALC</string>
+    <string name="btn_my_profile">My Profile</string>
+    <string name="btn_about_alc">About ALC</string>
+    <string name="first_background">first background</string>
+    <string name="second_background">Second background</string>
+    <string name="my_profile_photo">My Profile Photo</string>
+    <string name="my_name">Mohamed Zain</string>
+    <string name="slack_name_value">"@Mohamed Zain"</string>
+    <string name="slack_name_key">Slack Name:</string>
+    <string name="email_key">Email:</string>
+    <string name="email_value">m7mmd.zain@gmail.com</string>
+    <string name="phone_value">+20 114 888 0026</string>
+    <string name="phone_key">Phone Number:</string>
+    <string name="country_key">Country:</string>
+    <string name="country_value">Egypt</string>
+    <string name="trackv_value">Android</string>
+    <string name="track_key">Track:</string>
+</resources>

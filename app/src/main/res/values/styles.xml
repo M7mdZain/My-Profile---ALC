@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="textViews_values">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">@dimen/sp16</item>
+
+    </style>
+
+    <style name="textViews_keys" parent="textViews_values">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dark_blue</item>
+    </style>
+
+
+    <style name="buttons_landscape" parent="buttons">
+        <item name="android:layout_marginStart">@dimen/dp32</item>
+        <item name="android:layout_marginLeft">@dimen/dp32</item>
+        <item name="android:layout_marginEnd">@dimen/dp32</item>
+        <item name="android:layout_marginRight">@dimen/dp32</item>
+
+    </style>
+
+    <style name="buttons_portrait" parent="buttons">
+        <item name="android:layout_marginStart">@dimen/dp8</item>
+        <item name="android:layout_marginLeft">@dimen/dp16</item>
+        <item name="android:layout_marginEnd">@dimen/dp8</item>
+        <item name="android:layout_marginRight">@dimen/dp8</item>
+    </style>
+
+    <style name="buttons">
+        <item name="android:layout_marginTop">@dimen/dp32</item>
+        <item name="android:padding">@dimen/dp8</item>
+        <item name="android:textSize">@dimen/sp26</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+    <style name="textview_profile_name">
+        <item name="android:layout_marginBottom">@dimen/dp8</item>
+        <item name="android:text">@string/my_name</item>
+        <item name="android:textColor">@color/header_text_color</item>
+        <item name="android:textSize">@dimen/sp50</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="linearlayout_text">
+        <item name="android:layout_marginTop">@dimen/dp32</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="linearlayout_text_keys" parent="linearlayout_text">
+        <item name="android:layout_marginStart">@dimen/dp16</item>
+        <item name="android:layout_marginLeft">@dimen/dp16</item>
+    </style>
+
+    <style name="linearlayout_text_values" parent="linearlayout_text">
+        <item name="android:layout_marginStart">@dimen/dp4</item>
+        <item name="android:layout_marginLeft">@dimen/dp4</item>
+    </style>
+</resources>

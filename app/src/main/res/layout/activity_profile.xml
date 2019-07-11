@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/values"
+        style="@style/linearlayout_text_values"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/keys"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name">
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/textViews_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trackv_value" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/textViews_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/country_value" />
+
+        <TextView
+            android:id="@+id/textView10"
+            style="@style/textViews_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_value" />
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/textViews_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:text="@string/email_value" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/textViews_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slack_name_value" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/keys"
+        style="@style/linearlayout_text_keys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/textViews_keys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/track_key" />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/textViews_keys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/country_key" />
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/textViews_keys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_key" />
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/textViews_keys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_key" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/textViews_keys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slack_name_key" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_block_height"
+        android:contentDescription="@string/first_background"
+        android:src="@drawable/main_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_block_height"
+        android:contentDescription="@string/second_background"
+        android:scaleType="fitXY"
+        android:src="@drawable/blue_wave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/my_photo"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp16"
+        android:layout_marginBottom="@dimen/dp8"
+        android:contentDescription="@string/my_profile_photo"
+        app:layout_constraintBottom_toTopOf="@+id/tv_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/textview_profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

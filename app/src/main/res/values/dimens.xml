@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="image_block_height">250dp</dimen>
+    <dimen name="dp16">16dp</dimen>
+    <dimen name="dp400">400dp</dimen>
+    <dimen name="dp300">300dp</dimen>
+    <dimen name="dp32">32dp</dimen>
+    <dimen name="dp8">8dp</dimen>
+
+    <dimen name="sp26">26sp</dimen>
+    <dimen name="sp16">16sp</dimen>
+    <dimen name="sp60">60sp</dimen>
+    <dimen name="dp0">0dp</dimen>
+    <dimen name="sp50">50sp</dimen>
+    <dimen name="dp4">4dp</dimen>
+
+</resources>
